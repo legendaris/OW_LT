@@ -1,0 +1,19 @@
+html { 
+  background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+     font-family: BigNoodleTitling;
+     src: url(../fonts/big_noodle_titling_oblique.ttf); 
+}
+
+
+.title-text {
+    font-family:  BigNoodleTitling, sans-serif;
+    color: white;
+    font-size: 60px;
+}
