@@ -11,9 +11,31 @@ html {
      src: url(../fonts/big_noodle_titling_oblique.ttf); 
 }
 
-
-.title-text {
+.ow-text-font {
     font-family:  BigNoodleTitling, sans-serif;
-    color: #444;
-    font-size: 80px;
+}
+
+.ow-text--yellow {
+    color: #FFE126;
+}
+
+.ow-text--orange {
+    color: #F99E1A;
+}
+
+.ow-text--white {
+    color: #FFFFFF;
+}
+
+.ow-text--grey {
+    color: #43484C; 
+}
+
+.website-title-container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.website-title {
+    font-size: 120px;
 }
