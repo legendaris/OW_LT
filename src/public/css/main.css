@@ -1,5 +1,5 @@
 body { 
-  background: url('https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/volskaya-screenshot-002.jpg') no-repeat center center fixed; 
+  background: url(../images/bg_default.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,3 +108,45 @@ body {
 .push-down {
     height: 60px;
 }
+
+bg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg1 { background: url(../images/bg1.jpg) no-repeat center center fixed; }
+.bg2 { background: url(../images/bg2.jpg) no-repeat center center fixed; }
+.bg3 { background: url(../images/bg3.jpg) no-repeat center center fixed; }
+.bg4 { background: url(../images/bg4.jpg) no-repeat center center fixed; }
+.bg5 { background: url(../images/bg5.jpg) no-repeat center center fixed; }
+.bg6 { background: url(../images/bg6.jpg) no-repeat center center fixed; }
+.bg7 { background: url(../images/bg7.jpg) no-repeat center center fixed; }
+.bg8 { background: url(../images/bg8.jpg) no-repeat center center fixed; }
+.bg9 { background: url(../images/bg9.jpg) no-repeat center center fixed; }
+.bg10 { background: url(../images/bg10.jpg) no-repeat center center fixed; }
+.bg11 { background: url(../images/bg11.jpg) no-repeat center center fixed; }
+.bg12{ background: url(../images/bg12.jpg) no-repeat center center fixed; }
+.bg13 { background: url(../images/bg13.jpg) no-repeat center center fixed; }
+.bg14 { background: url(../images/bg14.jpg) no-repeat center center fixed; }
+.bg15 { background: url(../images/bg15.jpg) no-repeat center center fixed; }
+.bg16 { background: url(../images/bg16.jpg) no-repeat center center fixed; }
+.bg17 { background: url(../images/bg17.jpg) no-repeat center center fixed; }
+.bg18 { background: url(../images/bg18.jpg) no-repeat center center fixed; }
+.bg19 { background: url(../images/bg19.jpg) no-repeat center center fixed; }
+.bg20 { background: url(../images/bg20.jpg) no-repeat center center fixed; }
+.bg21 { background: url(../images/bg21.jpg) no-repeat center center fixed; }
+.bg22 { background: url(../images/bg22.jpg) no-repeat center center fixed; }
+.bg23 { background: url(../images/bg23.jpg) no-repeat center center fixed; }
+.bg24 { background: url(../images/bg24.jpg) no-repeat center center fixed; }
+.bg25 { background: url(../images/bg25.jpg) no-repeat center center fixed; }
+.bg26 { background: url(../images/bg26.jpg) no-repeat center center fixed; }
+.bg27 { background: url(../images/bg27.jpg) no-repeat center center fixed; }
+.bg28 { background: url(../images/bg28.jpg) no-repeat center center fixed; }
+.bg29 { background: url(../images/bg29.jpg) no-repeat center center fixed; }
+.bg30 { background: url(../images/bg30.jpg) no-repeat center center fixed; }
+.bg31 { background: url(../images/bg31.jpg) no-repeat center center fixed; }
+.bg32 { background: url(../images/bg32.jpg) no-repeat center center fixed; }
+.bg33 { background: url(../images/bg33.jpg) no-repeat center center fixed; }
+.bg34 { background: url(../images/bg34.jpg) no-repeat center center fixed; }
