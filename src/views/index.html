@@ -9,7 +9,9 @@
 
     <title>Lietuvos Overwatch Koalicija</title>
 
-
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
 
     <!-- INCLUDES -->
     <link rel="shortcut icon" href="favicon.png?v=2">
@@ -18,16 +20,34 @@
 
 <body>
     <div class="website-title-container">
-        <span class="ow-text-font ow-text--grey website-title">Lietuvos Overwatch Koalicija</span>
+        <span class="ow-text-font ow-text--white website-title">Lietuvos Overwatch Koalicija</span>
     </div>
 
-    <div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                <div class="section-title">Apie Overwatch</div>
+                <div class="section-subtitle"><a href="https://www.youtube.com/watch?v=FqnKB22pOC0">Cinematic Trailer</a></div>
+                <div class="">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FqnKB22pOC0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="section-subtitle"><a href="https://playoverwatch.com/en-gb/game/">Daugiau Info</a></div>
+                <div class="section-subtitle"><a href="https://playoverwatch.com/en-gb/buy/">Pirkti</a></div>
+            </div>
 
-        <video width="240" height="240" autoplay loop style="bottom:0; right: 0; position:absolute;">
+            <div class="col-xs-12 col-sm-4">
+                <div class="section-title">Koalicijos Discord Serveris</div>
+                <div class="section-subtitle"><a href="https://discordapp.com/invite/0143Keq0zKnGXF8wW">Prisijungti</a></div>
+                <iframe src="https://discordapp.com/widget?id=190731025943494657&theme=dark" width="560" height="315" allowtransparency="true" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="corner-img">
+        <video width="240" height="240" autoplay loop>
             <source src="videos/mei.mp4" type="video/mp4" />
         </video>
-
-    </div>
+    </div>-->
 </body>
 
 </html>

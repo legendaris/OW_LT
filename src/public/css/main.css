@@ -1,5 +1,5 @@
-html { 
-  background: url(../images/bg3.jpg) no-repeat center center fixed; 
+body { 
+  background: url('https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/volskaya-screenshot-002.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,11 +31,82 @@ html {
     color: #43484C; 
 }
 
+
+/****************************************************************************************************/
+.bordered-text {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    /* BLACK BORDER 1 PX */
+}
+
+/****************************************************************************************************/
 .website-title-container {
-    padding-top: 50px;
     text-align: center;
 }
 
 .website-title {
     font-size: 120px;
+}
+
+.left-side {
+    padding-left: 25%;
+}
+
+.right-side {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family:  BigNoodleTitling, sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1.1;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.section-subtitle {
+    font-family:  BigNoodleTitling, sans-serif;
+    font-size: 55px;
+    color: #F99E1A;
+    line-height: 1.1;
+    padding-left: 25px;
+}
+
+.section-subtitle a {
+    font-family:  BigNoodleTitling, sans-serif;
+    font-size: 55px;
+    color: #F99E1A;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+/* visited link */
+.section-subtitle a:visited {
+    color: #F99E1A;
+}
+
+/* mouse over link */
+.section-subtitle a:hover {
+    color: #FFE126;
+    text-decoration: none;
+}
+
+/* selected link */
+.section-subtitle a:active {
+    color: #FFE126;
+}
+
+.section-subsubtitle {
+    font-family:  BigNoodleTitling, sans-serif;
+    font-size: 55px;
+    color: #F99E1A;
+    line-height: 0.8;
+    padding-left: 50px;
+}
+
+
+/****************************************************************************************************/
+.corner-img {
+    bottom: 0;
+    right: 0;
+    position:absolute;
 }
