@@ -1,0 +1,24 @@
+a {
+    font-family:  BigNoodleTitling, sans-serif;
+    font-size: 48px;
+    color: #F99E1A;
+    line-height: 1.1;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* visited link */
+a:visited {
+    color: #F99E1A;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFE126;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #FFE126;
+}
