@@ -8,7 +8,8 @@ app.use("/", express.static(path.join(__dirname, 'src/views')));
 
 // Return index.html on all requests
 app.get('*', function(req, res) {
-    res.sendFile('index.html', { root: path.join(__dirname, 'src/views') });
+    console.log('Reached');
+    res.sendFile('next.html', { root: path.join(__dirname, 'src/views') });
 });
 
 // Set up the listening port
