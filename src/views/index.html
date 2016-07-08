@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Lietuvos Overwatch Koalicija">
     <meta name="keywords" content="Overwatch,Lietuva,Lithuania,Community,Blizzard,LTU">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Lietuvos Overwatch Koalicija</title>
 
@@ -15,9 +16,18 @@
     <!-- INCLUDES -->
     <link rel="shortcut icon" href="favicon.png?v=2">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+
+    <script src="js/app/module.js"></script>
+    <script src="js/app/Homepage/HomepageController.js"></script>
+
+    <base href="/home">
 </head>
 
-<body class="main-area-wrapper">
+<body class="main-area-wrapper" data-ng-app="lok_web">
     <header>
         <div class="header">
             <div class="ow-text-font ow-text--white bordered-text">Lietuvos Overwatch Koalicija</div>
@@ -25,20 +35,28 @@
         <div class="striped-separator"></div>
     </header>
 
-    <main class="main-area">
-        Content Coming Soon™
-    </main>
+    <div class="main-area-inner-wrapper">
+        <main class="main-area">
+            <!-- ANGULAR APP BELOW -->
+            <div class="main-area-inner" ui-view></div>
+            <!-- ANGULAR APP ABOVE -->
+        </main>
+        <div class="discord-widget-container" data-iframe-height>
+            <iframe id="discord-iframe" src="https://discordapp.com/widget?id=190731025943494657&theme=dark" width="100%" allowtransparency="true"
+                frameborder="0"></iframe>
+        </div>
+    </div>
 
-    <footer>
+    <footer data-iframe-height="true">
         <div class="striped-separator"></div>
-        <div class="footer">            
+        <div class="footer">
             <div>Lietuvos Overwatch Koalicija</div>
             <div>Rašykite mums: <a href="mailto:overwatch.koalicija@gmail.com">overwatch.koalicija@gmail.com</a></div>
         </div>
     </footer>
 </body>
 
-
 <script src="js/general/google_analytics.js"></script>
+<script src="js/general/index.js"></script>
 
 </html>

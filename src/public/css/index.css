@@ -1,11 +1,30 @@
 .main-area-wrapper {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    height: 100%;
+}
+
+.main-area-inner-wrapper {
+    background: url(../images/txture.png) repeat;
+    flex: 1 0 auto;
+    display: flex;
 }
 
 .main-area {
     flex: 1;
+    padding: 40px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-area-inner {
+    flex: 0 0 500px;
+}
+
+.discord-widget-container {
+    flex: 0 0 400px;
+    padding: 40px;
 }
 
 .footer {
@@ -40,6 +59,7 @@
 
 .ow-text-font {
     font-family:  BigNoodleTitling, sans-serif;
+    font-weight: 100;
 }
 
 .ow-text--yellow {
