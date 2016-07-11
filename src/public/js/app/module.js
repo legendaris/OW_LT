@@ -26,5 +26,3 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
         });
     }
 ]);
-
-console.log("test");

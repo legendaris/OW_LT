@@ -12,7 +12,7 @@
 
 .main-area {
     flex: 1;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
     color: #000000;
     font-family: Futura,century gothic,arial,sans-serif;
     display: flex;

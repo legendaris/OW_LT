@@ -1,1 +1,7 @@
-Test text
+<span class="ow-text-font ow-text--orange" style="font-size: 60px;">NUORODOS</span>
+
+<div ng-controller="HomepageController as ctrl" class="posts-container">
+    <div ng-repeat="post in ctrl.posts | orderBy:'-order'">
+        <media-object data-post="post"></media-object>
+    </div>
+</div>
