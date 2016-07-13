@@ -1,3 +1,7 @@
+html, body {
+    margin: 0px;
+}
+
 .main-area-wrapper {
     display: flex;
     flex-direction: column;
@@ -5,27 +9,62 @@
 }
 
 .main-area-inner-wrapper {
-    background-color: #e4e4e4;
     flex: 1 0 auto;
     display: flex;
+
+    background: url(../images/gibraltar.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .main-area {
-    flex: 1;
-    padding: 0 40px 40px 40px;
+    flex: 1 1 auto;
     color: #000000;
-    font-family: Futura,century gothic,arial,sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
-.main-area-inner {
-    flex: 0 0 500px;
+.main-area-row {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-area-row-inner {
+    flex: 1 1 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.posts-row {
+    padding: 20px;
+}
+
+.discord-row {
+    max-height: 500px;
+    background: rgba(40,53,79,.75);
+}
+
+.discord-section {
+    flex: 0 1 1170px;
+    max-height: 500px;
+}
+
+.discord-text-container {
+    flex: 0 1 auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .discord-widget-container {
-    flex: 0 0 400px;
-    padding: 40px;
+    flex: 0 0 500px;
+    
 }
 
 .footer {
@@ -35,10 +74,13 @@
     font-size: 1.5rem;
     display: flex;
     background: url(../images/txture.png) repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer a {
-    color: #e5e5e5;
+    color: rgb(247, 147, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
 }
 
 .footer-left {

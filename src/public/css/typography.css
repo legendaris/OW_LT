@@ -1,0 +1,20 @@
+h1 {
+    font-family: BigNoodleTitling;
+    color: #e5e5e5;
+    line-height: 2.5rem;
+    font-size: 6rem;
+}
+
+p {
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e4e4e4;
+}
+
+p a {
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e4e4e4;
+}

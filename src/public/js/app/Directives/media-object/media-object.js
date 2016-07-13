@@ -15,11 +15,10 @@
             controllerAs: 'ctrl',
             bindToController: true,
             template: '<div class="media-object">' +
-                      '    <div ng-class="{\'media-object-inner\': ctrl.post.link}">' +
-                      '        <a ng-if="ctrl.post.link" class="divlink" href="{{ctrl.post.link}}" alt="{{ctrl.post.title}}" target="_blank"></a>' +
-                      '        <div class="media-object-image-container">' +
-                      '            <img src="{{ctrl.post.imgSrc}}" width="320" height="180" />' +
-                      '            <div class="media-object-title-container bordered-text">{{ctrl.post.title}}</div>' +
+                      '    <div class="media-object-image-container">' +
+                      '        <img src="{{ctrl.post.imgSrc}}" width="320" height="180" />' +
+                      '        <div class="media-object-title-container">' +
+                      '            <a class="biglink" href="{{ctrl.post.link}}">{{ctrl.post.title}}</a>' +
                       '        </div>' +
                       '        <div class="media-object-subtitle-container">{{ctrl.post.subtitle}}</div>' +
                       '    </div>' +
