@@ -20,7 +20,7 @@
                       '        <div class="media-object-title-container">' +
                       '            <a class="biglink" href="{{ctrl.post.link}}">{{ctrl.post.title}}</a>' +
                       '        </div>' +
-                      '        <div class="media-object-subtitle-container">{{ctrl.post.subtitle}}</div>' +
+                      '        <div data-ng-if="ctrl.post.subtitle" class="media-object-subtitle-container">{{ctrl.post.subtitle}}</div>' +
                       '    </div>' +
                       '</div>',
         };

@@ -1,0 +1,11 @@
+<div class="main-area-row">
+    <div class="main-area-row-inner guides-row">
+        <div ng-controller="MapsGuidesController as ctrl" class="guides-container">
+            <div ng-repeat="post in ctrl.guides | orderBy:'order'">
+                <div class="guide">
+                    <iframe width="370" height="208" src="https://www.youtube.com/embed/fJYfVEV8SQ4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

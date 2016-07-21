@@ -1,4 +1,4 @@
-<html>
+<html data-ng-app="lok_web">
 
 <head>
     <!-- META INFORMATION -->
@@ -14,24 +14,27 @@
         crossorigin="anonymous">
 
     <!-- INCLUDES -->
-    <link rel="shortcut icon" href="favicon.png?v=2">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/links.css">
-    <link rel="stylesheet" type="text/css" href="css/typography.css">
-    <link rel="stylesheet" type="text/css" href="css/Pages/home.css">
-    <link rel="stylesheet" type="text/css" href="css/Directives/media-object.css">
+    <link rel="shortcut icon" href="/favicon.png?v=2">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/css/links.css">
+    <link rel="stylesheet" type="text/css" href="/css/typography.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/Pages/home.css">
+    <link rel="stylesheet" type="text/css" href="/css/Pages/guides.css">
 
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/css/Directives/media-object.css">
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
 
-    <script src="js/app/module.js"></script>
-    <script src="js/app/Homepage/HomepageController.js"></script>
+    <script src="/js/app/module.js"></script>
+    <script src="/js/app/Homepage/HomepageController.js"></script>
+    <script src="/js/app/Guides/MapsGuidesController.js"></script>
 
     <base href="/home">
 </head>
 
-<body class="main-area-wrapper" data-ng-app="lok_web">
+<body class="main-area-wrapper" >
     <header>
         <div class="header">
             <div class="ow-text-font ow-text--white bordered-text">Lietuvos Overwatch Koalicija</div>
@@ -41,7 +44,6 @@
 
     <div class="main-area-inner-wrapper">
         <main class="main-area" ui-view>
-            
         </main>
     </div>
 
@@ -63,9 +65,8 @@
         </div>
     </footer>
 
-    <script src="js/general/google_analytics.js"></script>
-    <script src="js/general/index.js"></script>
-    <script src="js/app/Directives/media-object/media-object.js"></script>
+    <script src="/js/general/google_analytics.js"></script>
+    <script src="/js/app/Directives/media-object/media-object.js"></script>
 </body>
 
 
